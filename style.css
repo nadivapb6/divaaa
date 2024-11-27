@@ -1,0 +1,177 @@
+/* style.css */
+
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+}
+
+/* Header */
+header {
+    background-color: #6a0dad; /* Warna ungu */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.top-btn .nav-btn {
+    background-color: #ff6347; /* Warna tombol */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.top-btn .nav-btn:hover {
+    background-color: #ff4500; /* Warna saat hover */
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.home-content {
+    flex: 1;
+}
+
+.home-img {
+    flex: 1;
+    text-align: center;
+}
+
+.home-img img {
+    border-radius: 50%; /* Membuat gambar bulat */
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 50px 20px;
+}
+
+.about-img {
+    flex: 1;
+}
+
+.about-content {
+    flex: 1;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.portfolio-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-content .row {
+    margin: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box input {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Button */
+.btn {
+    background-color: #6a0dad; /* Warna ungu */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #5a0a9e; /* Warna ungu lebih gelap saat hover */
+}
+
+/* Footer */
+.footer {
+    background-color: #6a0dad; /* Warna ungu */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social {
+    margin: 10px 0;
+}
+
+.social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 10px;
+}
